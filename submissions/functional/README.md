@@ -12,11 +12,6 @@ This paper presents an approach to automatically tag performance issues, based o
 
 # Experiment
 
-Step 1: Download the raw data and executable jar file from the DOI link [Zenodo] # Heuristic Linguistic Pattern
-This paper presents an approach to automatically tag performance issues, based on linguistic analysis of the issue description. Our approach stems from the observation that performance-related issues often contain similar linguistic characteristics at the sentence level, agnostic of specifc software product. 
-
-# Experiment
-
 Step 1: Download the raw data and executable jar file from the DOI link [Zenodo] https://doi.org/10.5281/zenodo.3875803
 
 Step 2: Unzip the raw data.zip. There are csv files that contains the manually labelled sentences and issues from dataset-1, dataset-2, and dataset-3. 
