@@ -23,5 +23,10 @@ For example:
 java -jar SentenceSplitter.jar ./dataset-2-sentence.csv ./dataset-2-meta-sentences.csv
 ```
 
-Step 5: 
+Step 5: Use HLPMatcher.jar to match the heuristic linguistic patterns to each sentence.
+For example:
+```bash
+java -jar HLPMatcher.jar ./dataset-2-meta-sentences.csv ./dataset-2-vector.csv
+```
 
+Step 6: Use Text Classification.ipynb and Vector Binary Classification.ipynb to use machine learning/deep learning models to predict if and issue or sentence is performance related. 
